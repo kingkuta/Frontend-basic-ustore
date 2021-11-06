@@ -10,7 +10,7 @@ let contactsButtonToUp = document.querySelector('.buttonToUpContacts');
 
 
 let aboutSection = document.querySelector('.aboutSection');
-let catalogSection = document.querySelector('.catalogSection');
+let catalogSection = document.querySelector('.product-selectoin-category');
 let howToBuySection = document.querySelector('.howToBuySection');
 let contactsSection = document.querySelector('.contactsSection');
 
