@@ -29,6 +29,11 @@ const langArr = {
         "en": "Kyiv",
         "ua": "Киев",
     },
+    "contact": {
+        "ru": "Контакты",
+        "en": "Contacts",
+        "ua": "Контакти",
+    },
 }
 
 
