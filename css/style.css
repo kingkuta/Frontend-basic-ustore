@@ -205,6 +205,49 @@ label {
 .mainMenu {
     height: 100vh;
 }
+/* filter*/
+.filter-header{
+    background: #222222;
+    padding: 0.4rem;
+    text-align: left;
+}
+.filter-header h1{
+    font-size: 2.5rem;
+    line-height: 2;
+    color: #ff7d7f;
+    padding-left: 40px;
+}
+form input{
+    width: 30rem;
+    padding: 0.4rem;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border-bottom: 2px solid lightsalmon;
+    margin-bottom: 2rem;
+    font-weight: lighter;
+}
+.filter-box{
+    padding-left: 40px;
+}
+.butn{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #fff;
+    background: lightsalmon;
+    padding-left: 16px;
+    border-radius: 3px;
+    margin-right: 1.1rem;
+
+}
+.actived{
+    background-color: #ff7d7f;
+}
+
+
+
+
 
 /* product catalog section*/
 .product-selectoin-category {

@@ -98,14 +98,34 @@
     <div>
         <button class="buttonToUpCatalog">pushToGo.UP</button>
     </div>
+
+    <header class="filter-header">
+    <h1>Filter</h1>
+    <!-- search box-->
+    <div class="search-box">
+        <form action="" onsubmit="return false">
+            <label><input type="text" id="search" placeholder="Search Product"></label>
+
+        </form>
+    </div>
+    <div class="filter-box" id="myBtnContainer">
+        <button class="butn actived" onclick="filterSelection('all')">All</button>
+        <button class="butn" onclick="filterSelection('apple')">Apple</button>
+        <button class="butn" onclick="filterSelection('xiaomi')">Xiaomi</button>
+        <button class="butn" onclick="filterSelection('samsung')">Samsung</button>
+        <button class="butn" onclick="filterSelection('sony')">Sony</button>
+
+    </div>
+    </header>
+
     <!-- best selling product category-->
-    <section class="catalogSection">
+    <section class="catalogSection" id="product-card">
 
         <h2 class="product-category">best selling</h2>
         <button class="pre-btn"><img src="assets/images/arrow.png" alt=""></button>
         <button class="nxt-btn"><img src="assets/images/arrow.png" alt=""></button>
         <div class="product-container">
-            <div class="product-card">
+            <div class="product-card apple">
                 <div class="product-image">
                     <span class="discount-tag">20% off</span>
                     <img src="assets/images/iphone11.png" class="product-thumb" alt="">
@@ -117,7 +137,7 @@
                     <span class="price">$520</span><span class="actual-price">$650</span>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card apple">
                 <div class="product-image">
                     <span class="discount-tag">20% off</span>
                     <img src="assets/images/ihpnexs.png" class="product-thumb" alt="">
@@ -129,7 +149,7 @@
                     <span class="price">$456</span><span class="actual-price">$570</span>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card apple">
                 <div class="product-image">
                     <span class="discount-tag">20% off</span>
                     <img src="assets/images/iphone12Pro.png" class="product-thumb" alt="">
@@ -141,7 +161,7 @@
                     <span class="price">$1040</span><span class="actual-price">$1300</span>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card apple">
                 <div class="product-image">
                     <span class="discount-tag">20% off</span>
                     <img src="assets/images/iphone12red.png" class="product-thumb" alt="">
@@ -153,7 +173,7 @@
                     <span class="price">$702</span><span class="actual-price">$878</span>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card apple">
                 <div class="product-image">
                     <span class="discount-tag">20% off</span>
                     <img src="assets/images/iphone13mini.png" class="product-thumb" alt="">
@@ -165,7 +185,7 @@
                     <span class="price">$736</span><span class="actual-price">$920</span>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card samsung">
                 <div class="product-image">
                     <span class="discount-tag">20% off</span>
                     <img src="assets/images/s21ultra.png" class="product-thumb" alt="">
@@ -177,7 +197,7 @@
                     <span class="price">$888</span><span class="actual-price">$1110</span>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card xiaomi">
                 <div class="product-image">
                     <span class="discount-tag">20% off</span>
                     <img src="assets/images/Xiaomimi11.jpeg" class="product-thumb" alt="">
@@ -194,13 +214,13 @@
     </section>
 
     <!-- second product category-->
-    <section class="catalogSection">
+    <section class="catalogSection" id="catalog">
 
         <h2 class="product-category">other smartphones</h2>
         <button class="pre-btn"><img src="assets/images/arrow.png" alt=""></button>
         <button class="nxt-btn"><img src="assets/images/arrow.png" alt=""></button>
         <div class="product-container">
-            <div class="product-card">
+            <div class="product-card samsung">
                 <div class="product-image">
                     <span class="discount-tag">5% off</span>
                     <img src="assets/images/s21plus.png" class="product-thumb" alt="">
@@ -212,7 +232,7 @@
                     <span class="price">$842</span><span class="actual-price">$877</span>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card xiaomi">
                 <div class="product-image">
                     <span class="discount-tag">5% off</span>
                     <img src="assets/images/pocof3.png" class="product-thumb" alt="">
@@ -248,7 +268,7 @@
                     <span class="price">$900</span>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card xiaomi">
                 <div class="product-image">
                     <span class="discount-tag">10% off</span>
                     <img src="assets/images/mi9tpro.png" class="product-thumb" alt="">
@@ -260,7 +280,7 @@
                     <span class="price">$377</span><span class="actual-price">$419</span>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card sony">
                 <div class="product-image">
                     <span class="discount-tag">15% off</span>
                     <img src="assets/images/xperia1iii.png" class="product-thumb" alt="">
@@ -288,7 +308,7 @@
 
     </section>
 </section>
-<section class="howToBuySection">
+<section class="howToBuySection" id="howToBuy">
     <div>
         <button class="buttonToUpHowToBuy">pushToGo.UP</button>
     </div>
@@ -333,12 +353,12 @@
 
 
 </section>
-<section class="aboutSection">
+<section class="aboutSection" id="about">
     <div>
         <button class="buttonToUpAbout">pushToGo.UP</button>
     </div>
 </section>
-<section class="contactsSection">
+<section class="contactsSection" id="contact">
     <div>
         <button class="buttonToUpContacts">pushToGo.UP</button>
     </div>
