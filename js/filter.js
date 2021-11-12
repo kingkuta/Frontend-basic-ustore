@@ -28,11 +28,11 @@ function w3RemoveClass(element, name) {
     element.className = arr1.join(" ");
 }
 const btnContainer = document.getElementById("myBtnContainer");
-const btns = btnContainer.getElementsByClassName("butn");
-for (let i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function(){
+const btnns = btnContainer.getElementsByClassName("butn");
+for (let i = 0; i < btnns.length; i++) {
+    btnns[i].addEventListener("click", function(){
         let current = document.getElementsByClassName("actived");
-        current[0].className = current[0].className.replace(" actived", "");
-        this.className += " actived";
+        current[0].className = current[0].className.replace("actived", "");
+        this.className += "actived";
     });
 }

@@ -209,7 +209,7 @@ label {
 .filter-header{
     background: #222222;
     padding: 0.4rem;
-    text-align: left;
+    text-align: center;
 }
 .filter-header h1{
     font-size: 2.5rem;
@@ -230,21 +230,25 @@ form input{
 }
 .filter-box{
     padding-left: 40px;
+
 }
 .butn{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-decoration: none;
     color: #fff;
     background: lightsalmon;
     padding-left: 16px;
     border-radius: 3px;
     margin-right: 1.1rem;
+    cursor: pointer;
+}
+.butn.actived{
+    background-color: #ff7d7f;
 
 }
-.actived{
+.butn:hover{
     background-color: #ff7d7f;
 }
-
 
 
 
@@ -279,7 +283,7 @@ form input{
 .product-container {
     padding: 0 10vw;
     display: flex;
-    overflow-x: auto;
+    overflow: hidden;
     scroll-behavior: smooth;
 }
 
@@ -293,7 +297,9 @@ form input{
     height: 450px;
     margin-right: 40px;
 }
-
+.show{
+    display: block;
+}
 .product-image {
     position: relative;
     width: 100%;
