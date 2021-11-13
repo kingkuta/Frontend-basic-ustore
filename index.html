@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
@@ -100,25 +100,25 @@
     </div>
 
     <header class="filter-header">
-    <h1>Filter</h1>
-    <!-- search box-->
-    <div class="search-box">
-        <form action="" onsubmit="return false">
-            <label for="search-item" class="srch">SEARCH:</label>
-            <input type="text" id="search-item" placeholder="Search Products" onkeyup="search()">
+        <h1>Filter</h1>
+        <!-- search box-->
+        <div class="search-box">
+            <form action="" onsubmit="return false">
+                <label for="search-item" class="srch">SEARCH:</label>
+                <input type="text" id="search-item" placeholder="Search Products" onkeyup="search()">
 
-        </form>
-    </div>
-    <div class="filter-box" id="myBtnContainer">
-        <button class="butn actived" onclick="filterSelection('all')">All</button>
-        <button class="butn" onclick="filterSelection('apple')">Apple</button>
-        <button class="butn" onclick="filterSelection('xiaomi')">Xiaomi</button>
-        <button class="butn" onclick="filterSelection('samsung')">Samsung</button>
-        <button class="butn" onclick="filterSelection('sony')">Sony</button>
-        <button class="butn" onclick="filterSelection('asus')">Asus</button>
-        <button class="butn" onclick="filterSelection('oneplus')">Oneplus</button>
+            </form>
+        </div>
+        <div class="filter-box" id="myBtnContainer">
+            <button class="butn actived" onclick="filterSelection('all')">All</button>
+            <button class="butn" onclick="filterSelection('apple')">Apple</button>
+            <button class="butn" onclick="filterSelection('xiaomi')">Xiaomi</button>
+            <button class="butn" onclick="filterSelection('samsung')">Samsung</button>
+            <button class="butn" onclick="filterSelection('sony')">Sony</button>
+            <button class="butn" onclick="filterSelection('asus')">Asus</button>
+            <button class="butn" onclick="filterSelection('oneplus')">Oneplus</button>
 
-    </div>
+        </div>
     </header>
 
     <!-- best selling product category-->
@@ -126,7 +126,7 @@
         <h1 class="product-category">best selling</h1>
         <button class="pre-btn"><img src="assets/images/arrow.png" alt=""></button>
         <button class="nxt-btn"><img src="assets/images/arrow.png" alt=""></button>
-        <div class="product-container"  id="product-list">
+        <div class="product-container" id="product-list">
             <div class="product-card apple">
                 <div class="product-image">
                     <span class="discount-tag">20% off</span>
@@ -314,44 +314,52 @@
     <div>
         <button class="buttonToUpHowToBuy">pushToGo.UP</button>
     </div>
-<section class="product-details">
-    <div class="image-slider">
-        <div class="product-img">
-            <img src="assets/images/iphone13promax1.png" class="active" alt="">
-            <img src="assets/images/iphone13promax2.png" alt="">
-            <img src="assets/images/iphone13promax3.png" alt="">
-            <img src="assets/images/iphone13promax4.png" alt="">
+    <section class="product-details">
+        <div class="image-slider">
+            <div class="product-img">
+                <img src="assets/images/iphone13promax1.png" class="active" alt="">
+                <img src="assets/images/iphone13promax2.png" alt="">
+                <img src="assets/images/iphone13promax3.png" alt="">
+                <img src="assets/images/iphone13promax4.png" alt="">
 
+            </div>
         </div>
-    </div>
-    <div class="details">
-        <h2 class="product-brand">apple</h2>
-        <p class="product-short-des">iphone 13 pro max 256 gb</p>
-        <span class="product-price">$1620</span>
-        <span class="product-actual-price">$1800</span>
-        <span class="product-discount">(10% off)</span>
-        <p class="product-sub-heading">models</p>
+        <div class="details">
+            <h2 class="product-brand">apple</h2>
+            <p class="product-short-des">iphone 13 pro max 256 gb</p>
+            <span class="product-price">$1620</span>
+            <span class="product-actual-price">$1800</span>
+            <span class="product-discount">(10% off)</span>
+            <p class="product-sub-heading">models</p>
 
-        <input type="radio" name="size" value="s" checked hidden id="s-size">
-        <label for="s-size" class="size-radio-btn check" >graphite</label>
-        <input type="radio" name="size" value="m" hidden id="m-size">
-        <label for="m-size" class="size-radio-btn">blue</label>
-        <input type="radio" name="size" value="l" hidden id="l-size">
-        <label for="l-size" class="size-radio-btn">silver</label>
-        <input type="radio" name="size"  hidden id="xl-size">
-        <label for="xl-size" class="size-radio-btn">gold</label>
+            <input type="radio" name="size" value="s" checked hidden id="s-size">
+            <label for="s-size" class="size-radio-btn check">graphite</label>
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radio-btn">blue</label>
+            <input type="radio" name="size" value="l" hidden id="l-size">
+            <label for="l-size" class="size-radio-btn">silver</label>
+            <input type="radio" name="size" hidden id="xl-size">
+            <label for="xl-size" class="size-radio-btn">gold</label>
 
-        <button class="btn cart-btn">add to cart</button>
-        <button class="btn wishlist-btn">add  to wishlist</button>
-    </div>
-</section>
-<section class="details-des">
-    <h2 class="heading">description</h2>
-    <p class="des">Powering everything is Apple's new A15 Bionic chip. The GPU on the Pro models has five cores instead of four on the 13 and 13 Mini. During my time testing the phones, it didn't have any trouble handling gaming, editing photos or having a bunch of apps open at the same time. Check out the benchmark test results below.<br>Are Cinematic videos perfect? No, but it's a blast to use and experiment with. Cinematic mode needs a good amount of light to work best. If conditions are too dark, you'll get a pop-up prompting you to turn your flash on.
+            <button class="btn cart-btn">add to cart</button>
+            <button class="btn wishlist-btn">add to wishlist</button>
+        </div>
+    </section>
+    <section class="details-des">
+        <h2 class="heading">description</h2>
+        <p class="des">Powering everything is Apple's new A15 Bionic chip. The GPU on the Pro models has five cores
+            instead of four on the 13 and 13 Mini. During my time testing the phones, it didn't have any trouble
+            handling gaming, editing photos or having a bunch of apps open at the same time. Check out the benchmark
+            test results below.<br>Are Cinematic videos perfect? No, but it's a blast to use and experiment with.
+            Cinematic mode needs a good amount of light to work best. If conditions are too dark, you'll get a pop-up
+            prompting you to turn your flash on.
 
-        Also, I noticed that fast-moving nonhuman subjects, such as water being poured out of a spout or a shot of espresso being brewed, were hard for Cinematic mode to keep in focus. And when editing a Cinematic mode video, the controls for the focus keyframes are tiny. You can long-press to expand them, but as soon as you let go, it goes back to being small.</p>
+            Also, I noticed that fast-moving nonhuman subjects, such as water being poured out of a spout or a shot of
+            espresso being brewed, were hard for Cinematic mode to keep in focus. And when editing a Cinematic mode
+            video, the controls for the focus keyframes are tiny. You can long-press to expand them, but as soon as you
+            let go, it goes back to being small.</p>
 
-</section>
+    </section>
 
 
 </section>
@@ -367,10 +375,21 @@
 
     <div class="lng-contact"></div>
 
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.5112329368767!2d30.459970116484143!3d5
+    <div class="contactMain">
+
+        <div class="contactMainLinks">
+            <a>+38 063-111-11-11</a>
+            <a>ucodeshop@icloud.com</a>
+            <a href="https://www.linkedin.com/in/artem-samson-303295220/" target="_blank">Linkedin</a>
+            <a href="https://instagram.com/ar_sams1" target="_blank">Instagram</a>
+            <a href="https://teleg.run/ChiefMahdi" target="_blank">Telegram</a>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.5112329368767!2d30.459970116484143!3d5
         0.46882567947799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cd8a062572fb%3A0x4977b2bcfcebb091!2su
         code%20IT%20academy!5e0!3m2!1sru!2sua!4v1634069133579!5m2!1sru!2sua" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </div>
 </section>
 
