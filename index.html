@@ -104,7 +104,8 @@
     <!-- search box-->
     <div class="search-box">
         <form action="" onsubmit="return false">
-            <label><input type="text" id="search" placeholder="Search Product"></label>
+            <label for="search-item" class="srch">SEARCH:</label>
+            <input type="text" id="search-item" placeholder="Search Products" onkeyup="search()">
 
         </form>
     </div>
@@ -122,11 +123,10 @@
 
     <!-- best selling product category-->
     <section class="catalogSection">
-
-        <h2 class="product-category">best selling</h2>
+        <h1 class="product-category">best selling</h1>
         <button class="pre-btn"><img src="assets/images/arrow.png" alt=""></button>
         <button class="nxt-btn"><img src="assets/images/arrow.png" alt=""></button>
-        <div class="product-container">
+        <div class="product-container"  id="product-list">
             <div class="product-card apple">
                 <div class="product-image">
                     <span class="discount-tag">20% off</span>
@@ -134,7 +134,7 @@
                     <button class="card-btn">add to wishlist</button>
                 </div>
                 <div class="product-info">
-                    <h2 class="product-brand">apple</h2>
+                    <h2 class="product-brand">Apple</h2>
                     <p class="product-short-des">Iphone 11 black 64 GB</p>
                     <span class="price">$520</span><span class="actual-price">$650</span>
                 </div>
@@ -218,7 +218,7 @@
     <!-- second product category-->
     <section class="catalogSection">
 
-        <h2 class="product-category">other smartphones</h2>
+        <h1 class="product-category">other smartphones</h1>
         <button class="pre-btn"><img src="assets/images/arrow.png" alt=""></button>
         <button class="nxt-btn"><img src="assets/images/arrow.png" alt=""></button>
         <div class="product-container">

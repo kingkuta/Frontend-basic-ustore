@@ -217,6 +217,12 @@ label {
     color: #ff7d7f;
     padding-left: 40px;
 }
+.srch{
+    position: relative;
+    display: inline-flex;
+    font-size: 30px;
+    padding:5px;
+}
 form input{
     width: 30rem;
     padding: 0.4rem;
@@ -297,7 +303,7 @@ form input{
     height: 450px;
     margin-right: 40px;
 }
-.show{
+.show {
     display: block;
 }
 .product-image {
