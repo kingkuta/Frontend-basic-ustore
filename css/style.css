@@ -577,7 +577,7 @@ form input{
 
 .aboutSection {
     background-color: black;
-    height: 100vh;
+    height: 115vh;
 }
 
 .contactsSection {
@@ -663,6 +663,7 @@ form input{
 
 .lng-aboutSectionText, .lng-aboutSectionText2 {
     color: white;
+    margin-left: 10%;
 }
 
 
