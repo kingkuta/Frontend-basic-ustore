@@ -248,10 +248,11 @@ form input{
     margin-right: 1.1rem;
     cursor: pointer;
 }
-.butn.actived{
-    background-color: #ff7d7f;
 
+.actived{
+    background-color: #ff7d7f;
 }
+
 .butn:hover{
     background-color: #ff7d7f;
 }
@@ -266,7 +267,7 @@ form input{
     padding: 20px 0;
     background-color: black;
     color: aliceblue;
-    height: 150vh;
+    height: 160vh;
 }
 
 .catalogSection {
@@ -302,6 +303,7 @@ form input{
     width: 250px;
     height: 450px;
     margin-right: 40px;
+    display: none;
 }
 .show {
     display: block;
