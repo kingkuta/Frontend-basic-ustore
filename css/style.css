@@ -1,13 +1,16 @@
+
 * {
     margin: 0;
 }
 
 html, body {
     font-size: 18px;
-    font-family: sans-serif;
     color: #222;
     background-color: black;
+    font-weight: 600;
+
 }
+
 
 header {
     background-color: #FF0000;
@@ -20,8 +23,11 @@ header {
     height: 60px;
     margin-left: 40px;
     margin-right: 40px;
+    font-family: 'Signika', sans-serif;
 }
-
+span{
+    font-family: 'Courgette', sans-serif;
+}
 label {
     margin-left: 40px;
 }
@@ -423,7 +429,7 @@ form input{
 /* how to buy section product details*/
 .howToBuySection {
     background-color: white;
-    height: 150vh;
+    height: 110vh;
 }
 
 .product-details {
@@ -626,6 +632,42 @@ form input{
     }
 }
 
+@media (max-width:1362px) {
+    .navbarMenu {
+        display: flex;
+    }
+
+    .mainMenu {
+        display: inline-grid;
+        font-size: 17px;
+    }
+
+    .filter-header {
+        display: grid;
+        font-size: 15px;
+    }
+
+    .howToBuySection {
+        display: grid;
+        font-size: 20px;
+    }
+
+    .aboutSection {
+        display: grid;
+        font-size: 15px;
+    }
+
+    .contactsSection {
+        display: grid;
+        font-size: 15px;
+    }
+
+    .contactMainLinks {
+
+        font-size: 10px;
+    }
+
+}
 @media (max-width: 1028px) {
     .btn {
         display: grid;
